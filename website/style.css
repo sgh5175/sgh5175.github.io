@@ -1,0 +1,415 @@
+ body {
+     background-color: #142340;
+     font-family: "Funnel Sans", sans-serif;
+     font-weight: 300;
+     margin: 2;
+     padding: 0;
+
+ }
+
+ .header-container {
+     position: relative;
+ }
+
+ .header-container::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 150%;
+     border-radius: 35%;
+     background-image: url("peacock\ tech\ background.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.5;
+     z-index: -1;
+ }
+
+ .header-container h1 {
+     position: relative;
+     line-height: normal;
+     font-family: "Rouge Script", cursive;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+     padding-top: 15%;
+     margin-bottom: 0;
+ }
+
+ .header-container h2 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 75px;
+     font-weight: 300;
+     margin-top: 0;
+ }
+
+ .header-container h3 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 26px;
+     font-style: italic;
+     font-weight: 300;
+ }
+
+ .intro-container h1 {
+     position: relative;
+     line-height: normal;
+     font-family: "Rouge Script", cursive;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+     padding-top: 1%;
+     margin-bottom: 0;
+ }
+ .intro-container h3 {
+     position: relative;
+     padding-top: 20%;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 48px;
+     font-weight: 300;
+ }
+
+ .intro-container h4 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: justify;
+     font-size: 24px;
+     font-weight: 300;
+     padding-bottom: 10%;
+
+ }
+.intro-container a {
+     display: inline-block;
+     color: #ffffff;
+     text-decoration-line: underline;
+ }
+
+ .intro-container a:hover {
+     color: #e29e57;
+ }
+
+ .nav-container ul {
+     font-family: "Funnel Sans", sans-serif;
+     font-size: 24px;
+     padding: 0;
+     overflow: hidden;
+     background-color: #e29e57;
+     list-style-type: none;
+     position: fixed;
+     top: 0;
+     LEFT: 0;
+     width: 100%;
+     z-index: 1;
+ }
+
+ .nav-container li {
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+
+ }
+
+ .nav-container li a {
+     display: inline-block;
+     color: #ffffff;
+     padding: 15px 15px;
+     text-decoration: none;
+ }
+
+ .nav-container li:last-child {
+     border-right: none;
+ }
+
+ .nav-container li a:hover {
+     background-color: #142340;
+ }
+
+ hr {
+     border: none;
+     height: 3px;
+     background-color: #e29e57;
+     max-resolution: 20px 0;
+ }
+
+ ul {
+     font-family: "Funnel Sans", sans-serif;
+     font-size: 24px;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     list-style-type: none;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+
+ li {
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+ }
+
+ li a {
+     display: inline-block;
+     color: #ffffff;
+     padding: 15px 15px;
+     text-decoration: none;
+ }
+
+ li:last-child {
+     border-right: none;
+ }
+
+ li a:hover {
+     background-color: #142340;
+ }
+
+ .res-container h1 {
+     position: relative;
+     line-height: normal;
+     font-family: "Rouge Script", cursive;
+     color: azure;
+     text-align: center;
+     font-size: 80px;
+     font-weight: 300;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ .res-container h2 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 30px;
+     font-weight: 300;
+     margin-top: 0;
+ }
+
+ .res-container h3 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 300;
+ }
+
+ .res-container h4 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: justify;
+     font-size: 20px;
+     font-weight: 300;
+
+ }
+
+ .res-container h5 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+
+ }
+
+ .res-container ul {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 300;
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 1;
+ }
+
+ .res-container li {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 14px;
+     font-weight: 300;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .res-container li a {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+
+ }
+
+ .res-container li a:hover {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: #;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+
+ }
+
+ .res-container2 ul {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 300;
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+     padding: 0;
+
+ }
+
+ .res-container2 li {
+     position: relative;
+     line-height: 3px;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 14px;
+     font-weight: 300;
+     padding: 1;
+ }
+  .blog-container h1 {
+     position: relative;
+     line-height: normal;
+     font-family: "Rouge Script", cursive;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+     padding-top: 1%;
+     margin-bottom: 0;
+ }
+ .blog-container h2 {
+     position: relative;
+     padding-top: 20%;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 48px;
+     font-weight: 300;
+ }
+
+ .blog-container h3 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: justify;
+     font-size: 24px;
+     font-weight: 300;
+     padding-bottom: 1;
+ }
+ 
+ .blog-container h4 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 300;
+     padding-bottom: 1;
+ }
+
+.blog-container a {
+     display: inline-block;
+     color: #ffffff;
+     text-decoration-line: underline;
+ }
+
+ .blog-container a:hover {
+     color: #e29e57;
+ }
+ .blog-container ul {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 300;
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 1;
+ }
+
+ .blog-container li {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 14px;
+     font-weight: 300;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .blog-container li a {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+
+ }
+
+ .blog-container li a:hover {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: #;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 300;
+
+ }
