@@ -257,7 +257,7 @@
 
  .res-container li {
      position: relative;
-     line-height: normal;
+     line-height:18px;
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
@@ -265,6 +265,7 @@
      font-weight: 300;
      display: flex;
      justify-content: space-between;
+
 
  }
 
@@ -306,7 +307,7 @@
 
  .res-container2 li {
      position: relative;
-     line-height: 3px;
+     line-height: 18px;
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
