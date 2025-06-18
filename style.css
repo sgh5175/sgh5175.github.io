@@ -4,6 +4,8 @@
      font-weight: 300;
      margin: 2;
      padding: 0;
+     padding-left: 15px;
+     padding-right: 15px;
 
  }
 
@@ -312,6 +314,7 @@
      font-weight: 300;
      padding: 1;
  }
+
  .blog-container h1 {
      position: relative;
      line-height: normal;
@@ -322,6 +325,7 @@
      font-weight: 300;
      padding-top: 1%;
      margin-bottom: 0;
+     
  }
 
  .blog-container h2 {
