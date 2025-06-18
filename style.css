@@ -72,6 +72,7 @@
      padding-top: 1%;
      margin-bottom: 0;
  }
+
  .intro-container h3 {
      position: relative;
      padding-top: 20%;
@@ -94,7 +95,8 @@
      padding-bottom: 10%;
 
  }
-.intro-container a {
+
+ .intro-container a {
      display: inline-block;
      color: #ffffff;
      text-decoration-line: underline;
@@ -240,7 +242,7 @@
      line-height: normal;
      font-family: "Funnel Sans", sans-serif;
      text-align: left;
-     font-size: 18px;
+     font-size: 24px;
      font-weight: 300;
      display: inline-block;
      text-align: end;
@@ -310,7 +312,7 @@
      font-weight: 300;
      padding: 1;
  }
-  .blog-container h1 {
+ .blog-container h1 {
      position: relative;
      line-height: normal;
      font-family: "Rouge Script", cursive;
@@ -321,6 +323,7 @@
      padding-top: 1%;
      margin-bottom: 0;
  }
+
  .blog-container h2 {
      position: relative;
      padding-top: 20%;
@@ -342,7 +345,7 @@
      font-weight: 300;
      padding-bottom: 1;
  }
- 
+
  .blog-container h4 {
      position: relative;
      line-height: normal;
@@ -354,15 +357,16 @@
      padding-bottom: 1;
  }
 
-.blog-container a {
+ .blog-container a {
      display: inline-block;
      color: #ffffff;
-     text-decoration-line: underline;
+     text-decoration-line: none;
  }
 
  .blog-container a:hover {
      color: #e29e57;
  }
+
  .blog-container ul {
      position: relative;
      line-height: normal;
@@ -373,7 +377,6 @@
      display: inline-block;
      text-align: end;
      color: #ffffff;
-     padding: 0;
      display: flex;
      justify-content: space-between;
      padding-bottom: 1;
@@ -385,10 +388,25 @@
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
-     font-size: 14px;
+     font-size: 18px;
      font-weight: 300;
      display: flex;
      justify-content: space-between;
+     list-style-type: disc;
+
+ }
+
+ .blog-container ol {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 300;
+     display: flex;
+     justify-content: space-between;
+
 
  }
 
@@ -407,9 +425,115 @@
      position: relative;
      line-height: normal;
      font-family: "Funnel Sans", sans-serif;
-     color: #;
+     color: #e29e57;
      text-align: center;
      font-size: 150px;
      font-weight: 300;
 
+ }
+
+ .article-container h1 {
+     position: relative;
+     line-height: normal;
+     font-family: "Matangi", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 50px;
+     font-weight: 300;
+     padding-top: 3%;
+     margin-bottom: 0;
+ }
+
+ .article-container h2 {
+     position: relative;
+     padding-top: 20%;
+     line-height: normal;
+     font-family: "Matangi", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 36px;
+     font-weight: 300;
+ }
+
+ .article-container h3 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: justify;
+     font-size: 20px;
+     font-weight: 100;
+     padding-bottom: 1;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+
+ .article-container h4 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 24px;
+     font-weight: 100;
+     font-style: bold;
+     padding-left: 15px;
+
+ }
+
+ .article-container a {
+     display: inline-block;
+     color: #ffffff;
+     text-decoration-line: none;
+ }
+
+ .article-container a:hover {
+     color: #e29e57;
+ }
+
+ .article-container ul {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 100;
+     display: inline-block;
+     color: #ffffff;
+     padding-bottom: 1;
+     list-style-type: disc;
+    display: list-item;
+ }
+
+ .article-container li {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: left;
+     font-size: 18px;
+     font-weight: 100;
+     display: list-item;
+     padding-left: 30px;
+
+ }
+
+ .article-container li a {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 100;
+ }
+
+ .article-container li a:hover {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: #e29e57;
+     text-align: center;
+     font-size: 150px;
+     font-weight: 100;
  }
