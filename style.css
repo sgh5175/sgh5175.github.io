@@ -241,7 +241,7 @@
 
  .res-container ul {
      position: relative;
-     line-height: normal;
+     line-height: 24px;
      font-family: "Funnel Sans", sans-serif;
      text-align: left;
      font-size: 24px;
@@ -257,7 +257,7 @@
 
  .res-container li {
      position: relative;
-     line-height:18px;
+     line-height:24px;
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
@@ -296,7 +296,7 @@
      line-height: normal;
      font-family: "Funnel Sans", sans-serif;
      text-align: left;
-     font-size: 18px;
+     font-size: 24px;
      font-weight: 300;
      display: inline-block;
      text-align: end;
@@ -307,7 +307,7 @@
 
  .res-container2 li {
      position: relative;
-     line-height: 18px;
+     line-height: 24px;
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
