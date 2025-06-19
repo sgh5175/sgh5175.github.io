@@ -573,4 +573,39 @@
      font-size: 150px;
      font-weight: 100;
  }
- 
+ .res-container table {
+     line-height: normal;
+     padding-left: 2%;
+     width: 80%
+     font-family: "Funnel Sans", sans-serif;
+     font-size: 18px;
+     font-weight: 100;
+     color: #ffffff;
+     padding-bottom: 1%;
+     padding-top: 1%;
+
+ }
+ .res-container td {
+     position: relative;
+     width:16%
+     line-height: normal;
+     text-align: center;
+     border-bottom: 1px solid #e29e57;
+ }
+ .res-container th{
+     position: relative;
+          font-size: 24px;
+     line-height: normal;
+     width: 16%;
+     text-align: center;
+     padding-bottom: 1;
+     border-bottom: 2px solid #e29e57;
+ }
+ .res-container tr {
+     position: relative;
+     width: 16%;
+     line-height: normal;
+     text-align: center;
+     padding-bottom: 1;
+     border-bottom: 1px solid #e29e57;
+ }
