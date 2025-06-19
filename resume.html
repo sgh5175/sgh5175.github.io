@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lavishly+Yours&family=Rouge+Script&display=swap"
         rel="stylesheet">
-    <title>Staci's Resume</title>
+    <title>Staci Herrington's Resume</title>
     <link rel="icon" href="SH logo favicon.png" type="image/x-icon">
     <style>
         @media print {
@@ -24,8 +24,8 @@
                 padding: 0;
                 font-family: "Funnel Sans", sans-serif;
                 color: #000;
-                background: none;
             }
+
 
             /* Hide non-print elements */
             .no-print,
@@ -41,6 +41,7 @@
                 background: none !important;
                 box-shadow: none !important;
                 navigation: none !important;
+                margin: 0%;
             }
 
             /* Page break settings */
@@ -52,6 +53,14 @@
             .print-container {
                 width: 100%;
                 padding: 10px;
+                background-color: #e29e57;
+                color: #e29e57;
+                border-radius: 10%;
+                font-size: 12px;
+            }
+
+            .print-container:hover {
+                background-color: #142340;
             }
         }
     </style>
@@ -70,8 +79,8 @@
     </div>
     <div>
         <p style="padding-top: 5%;"></p>
-        <img src="staci crop square headshot.jpg" alt="Profile Picture"
-            style="display: block; margin: auto;  width: 250px; height: 250px; border-radius: 50%; border: 4px solid #333;">
+        <img src="staci crop square headshot.jpg" alt="Profile Picture" id="staciprofile"
+            style="display: block; margin: auto; padding-left: 0; width: 250px; height: 250px; border-radius: 50%; border: 4px solid #333;">
     </div>
     <div class="res-container">
 
@@ -88,7 +97,7 @@
         <h3 style="padding-top: 5%;">EMPLOYMENT HISTORY</h3>
         <HR>
         <p></p>
-        <UL>
+        <UL style="padding-top: 2%;">
             <span>QA ENGINEER</span>
             <span>Jan 2025 - Present</span>
         </UL>
@@ -178,7 +187,7 @@
             <span>Remote - Pittsburgh, PA</span>
         </ul>
         <p></p>
-        <div class="res-container2">
+        <div class="res-container2" style="padding-bottom: 2%;">
             <ul>
                 <p></p>
                 <li>⬧ Acted as a liaison between clients and internal teams, including programming, quality assurance,
@@ -192,12 +201,47 @@
                 <li>⬧ Analyzed client-reported issues, replicating errors to assist in resolution.</li>
             </ul>
         </div>
+        <hr>
+        <h3 style="padding-top: 5%;">EDUCATION</h3>
+        <hr>
+        <UL style="padding-top: 2%;">
+            <span>BACHELOR OF SCIENCE, INFORMATION SCIENCES AND TECHNOLOGY</span>
+            <span>Aug 2018 - Dec 2023</span>
+        </UL>
+        <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
+            <span>Pennsylvania State University - World Campus</span>
+            <span>3.39 G.P.A.</span>
+        </ul>
         <HR>
-        <li style="padding: 20px 15px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
+        <h3 style="padding-top: 5%;">CERTIFICATIONS</h3>
+        <hr>
+        <UL style="padding-top: 2%;">
+            <span>CERTIFIED TESTER, FOUNDATION LEVEL</span>
+            <span>Jan 2021</span>
+        </UL>
+        <ul style="font-size: 16px; font-style: italic;">
+            ISQTB - International Software Testing Qualifications Board
+        </ul>
+        <UL style="padding-top: 2%;">
+            <span>CERTIFIED TESTER, FOUNDATION LEVEL AGILE TESTER</span>
+            <span>Dec 2021</span>
+        </UL>
+        <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
+            ISQTB - International Software Testing Qualifications Board
+        </ul>
+        <HR>
+        <div>
+            <button class="print-container" onclick="window.print()" id="printpdf">Download PDF</button>
+        </div>
+        <li style="padding-left: 15px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
             reserved.</li>
+        <p></p>
+        <a href="mailto:sgherrington1972@gmail.com"><img src="emailwhite.png" alt="email icon" id="email-icon"></a>
+        <a href="https://www.linkedin.com/in/staci-herrington-a5b89769/" style="padding-left: 45px;"><img
+                src="linkedwhite.png" alt="linkedin icon" id="linkedin-icon"></a>
+        <a href="https://www.facebook.com/profile.php?id=100092502462591" style="padding-left: 45px;"><img
+                src="fbwhite.png" alt="facebook icon" id="facebook-icon"></a>
     </div>
-    <div class="print-container">
-        <button onclick="window.print()">Print or Save as PDF</button>
-    </div>
+
 
 </body>

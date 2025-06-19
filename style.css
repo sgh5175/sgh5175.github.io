@@ -9,6 +9,53 @@
 
  }
 
+ img {
+     width: 50px;
+     height: 50px;
+     padding-left: 15px;
+ }
+
+ hr {
+     border: none;
+     height: 3px;
+     background-color: #e29e57;
+     max-resolution: 20px 0;
+ }
+
+ ul {
+     font-family: "Funnel Sans", sans-serif;
+     font-size: 24px;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     list-style-type: none;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+
+ li {
+     display: inline-block;
+     text-align: end;
+     color: #ffffff;
+     font: 24px;
+ }
+
+ li a {
+     display: inline-block;
+     color: #ffffff;
+     padding: 15px 15px;
+     text-decoration: none;
+ }
+
+ li:last-child {
+     border-right: none;
+ }
+
+ li a:hover {
+     background-color: #142340;
+ }
+/*settings for header for top of index page to give peacock background*/
  .header-container {
      position: relative;
  }
@@ -62,7 +109,7 @@
      font-style: italic;
      font-weight: 300;
  }
-
+/*settings for writing for on index page that does not go above peacock background as well as for about page*/
  .intro-container h1 {
      position: relative;
      line-height: normal;
@@ -94,7 +141,6 @@
      text-align: justify;
      font-size: 24px;
      font-weight: 300;
-     padding-bottom: 10%;
 
  }
 
@@ -102,12 +148,27 @@
      display: inline-block;
      color: #ffffff;
      text-decoration-line: underline;
+     font-size: 24px;
  }
 
  .intro-container a:hover {
      color: #e29e57;
+     font-size: 24px;
  }
 
+ /*configuration for .intro-container for mobile & tablet*/
+ /*can't seem to get it working on pc in dev tools pushing to see on mobilex s*/
+@media only screen and (max-width: 801px) {
+    .intro-container a{
+        font-size: 24px;
+    }
+    
+    .intro-container a:hover {
+     color: #e29e57;
+     font-size: 24px;
+ }
+/*navigation header at top of every page*/
+}
  .nav-container ul {
      font-family: "Funnel Sans", sans-serif;
      font-size: 24px;
@@ -120,13 +181,14 @@
      LEFT: 0;
      width: 100%;
      z-index: 1;
+     font-size: 24px;
  }
 
  .nav-container li {
      display: inline-block;
      text-align: end;
      color: #ffffff;
-
+     font-size: 24px;
  }
 
  .nav-container li a {
@@ -134,6 +196,7 @@
      color: #ffffff;
      padding: 15px 15px;
      text-decoration: none;
+     font-size: 24px;
  }
 
  .nav-container li:last-child {
@@ -143,47 +206,7 @@
  .nav-container li a:hover {
      background-color: #142340;
  }
-
- hr {
-     border: none;
-     height: 3px;
-     background-color: #e29e57;
-     max-resolution: 20px 0;
- }
-
- ul {
-     font-family: "Funnel Sans", sans-serif;
-     font-size: 24px;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     list-style-type: none;
-     position: fixed;
-     top: 0;
-     width: 100%;
- }
-
- li {
-     display: inline-block;
-     text-align: end;
-     color: #ffffff;
- }
-
- li a {
-     display: inline-block;
-     color: #ffffff;
-     padding: 15px 15px;
-     text-decoration: none;
- }
-
- li:last-child {
-     border-right: none;
- }
-
- li a:hover {
-     background-color: #142340;
- }
-
+/*settings for resume page including flex box for titles and date lines*/
  .res-container h1 {
      position: relative;
      line-height: normal;
@@ -257,7 +280,7 @@
 
  .res-container li {
      position: relative;
-     line-height:24px;
+     line-height: 24px;
      font-family: "Funnel Sans", sans-serif;
      color: azure;
      text-align: left;
@@ -291,6 +314,7 @@
 
  }
 
+ /*settings for resume page minus flex box for job duties*/
  .res-container2 ul {
      position: relative;
      line-height: normal;
@@ -315,7 +339,7 @@
      font-weight: 300;
      padding: 1;
  }
-
+ /*settings for blog page including flex box for title and date written*/
  .blog-container h1 {
      position: relative;
      line-height: normal;
@@ -326,7 +350,7 @@
      font-weight: 300;
      padding-top: 1%;
      margin-bottom: 0;
-     
+
  }
 
  .blog-container h2 {
@@ -436,7 +460,7 @@
      font-weight: 300;
 
  }
-
+ /*settings for article pages*/
  .article-container h1 {
      position: relative;
      line-height: normal;
@@ -507,7 +531,7 @@
      color: #ffffff;
      padding-bottom: 1;
      list-style-type: disc;
-    display: list-item;
+     display: list-item;
  }
 
  .article-container li {
