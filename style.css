@@ -55,7 +55,8 @@
  li a:hover {
      background-color: #142340;
  }
-/*settings for header for top of index page to give peacock background*/
+
+ /*settings for header for top of index page to give peacock background*/
  .header-container {
      position: relative;
  }
@@ -109,7 +110,8 @@
      font-style: italic;
      font-weight: 300;
  }
-/*settings for writing for on index page that does not go above peacock background as well as for about page*/
+
+ /*settings for writing for on index page that does not go above peacock background as well as for about page*/
  .intro-container h1 {
      position: relative;
      line-height: normal;
@@ -157,18 +159,20 @@
  }
 
  /*configuration for .intro-container for mobile & tablet*/
- /*can't seem to get it working on pc in dev tools pushing to see on mobilex s*/
-@media only screen and (max-width: 801px) {
-    .intro-container a{
-        font-size: 24px;
-    }
-    
-    .intro-container a:hover {
-     color: #e29e57;
-     font-size: 24px;
+ /*can't seem to get it working on pc in dev tools pushing to see on mobile*/
+ @media (max-width: 801px) {
+     .intro-container a {
+         font-size: 24px;
+     }
+
+     .intro-container a:hover {
+         color: #e29e57;
+         font-size: 24px;
+     }
+
+     /*navigation header at top of every page*/
  }
-/*navigation header at top of every page*/
-}
+
  .nav-container ul {
      font-family: "Funnel Sans", sans-serif;
      font-size: 24px;
@@ -206,7 +210,8 @@
  .nav-container li a:hover {
      background-color: #142340;
  }
-/*settings for resume page including flex box for titles and date lines*/
+
+ /*settings for resume page including flex box for titles and date lines*/
  .res-container h1 {
      position: relative;
      line-height: normal;
@@ -339,6 +344,7 @@
      font-weight: 300;
      padding: 1;
  }
+
  /*settings for blog page including flex box for title and date written*/
  .blog-container h1 {
      position: relative;
@@ -460,6 +466,7 @@
      font-weight: 300;
 
  }
+
  /*settings for article pages*/
  .article-container h1 {
      position: relative;
@@ -566,3 +573,4 @@
      font-size: 150px;
      font-weight: 100;
  }
+ 
