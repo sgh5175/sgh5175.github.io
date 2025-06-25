@@ -7,7 +7,8 @@
     <meta charset="UTF-8">
     <meta name="description" content="Staci Herrington Quality Assurance Resume">
     <meta name="author" content="Staci Herrington">
-    <meta name="keywords" content="QA, Quality Assurance, Software Quality, Agile Processes, End-to-End Test Execution, ISQTB Certified">
+    <meta name="keywords"
+        content="QA, Quality Assurance, Software Quality, Agile Processes, End-to-End Test Execution, ISQTB Certified">
 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,19 +23,36 @@
     <title>Staci Herrington's Resume</title>
     <link rel="icon" href="SH logo favicon.png" type="image/x-icon">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .print-button {
+            background-color: #e29e57;
+            color: azure;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+        }
+
+        .print-button:hover {
+            background-color: #d68d44;
+        }
+
         @media print {
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: "Funnel Sans", sans-serif;
-                color: #000;
-            }
 
 
             /* Hide non-print elements */
             .no-print,
             .nav-container,
             .print-container,
+            .print-button,
             .button,
             .ads {
                 display: none !important;
@@ -55,10 +73,11 @@
 
             /* Adjust widths for printing */
             .print-container {
+                display: inline-block;
                 width: 100%;
                 padding: 10px;
                 background-color: #e29e57;
-                color: #e29e57;
+                color: #azure;
                 border-radius: 10%;
                 font-size: 12px;
             }
@@ -66,6 +85,7 @@
             .print-container:hover {
                 background-color: #142340;
             }
+
         }
     </style>
 </head>
@@ -90,6 +110,7 @@
 
         <h1>Staci Herrington</h1>
         <h2>Software QA Engineer</h2>
+        <button class="print-button" onclick="window.print()" id="printpdf">Download PDF</button>
 
         <h3 style="padding-top: 5%;">PROFESSIONAL SUMMARY</h3>
         <hr>
@@ -98,6 +119,7 @@
             DevOps, with a strong focus on defect identification and resolution. Continuously advancing skills in to
             stay at the forefront of industry advancements and deliver superior quality assurance solutions.</h4>
         <hr>
+        <div class="page-break"></div>
         <h3 style="padding-top: 5%;">EMPLOYMENT HISTORY</h3>
         <HR>
         <p></p>
@@ -110,6 +132,7 @@
             <span>Manvel, TX</span>
         </ul>
         <p></p>
+
         <div class="res-container2">
             <ul>
                 <br>
@@ -127,6 +150,8 @@
 
             </ul>
         </div>
+    </div>
+    <div class="res-container">
         <p></p>
         <UL>
             <span>QA ENGINEER</span>
@@ -137,6 +162,7 @@
             <span>Pearland, TX</span>
         </ul>
         <p></p>
+
         <div class="res-container2">
             <ul>
                 <p></p>
@@ -156,7 +182,10 @@
                     timely and efficient issue handling.</li>
             </ul>
         </div>
-        <p></p>
+    </div>
+    <p></p>
+        <div class="page-break"></div>
+    <div class="res-container">
         <UL>
             <span>QA ENGINEER</span>
             <span>April 2019 - Sept 2021</span>
@@ -166,6 +195,7 @@
             <span>Pearland, TX</span>
         </ul>
         <p></p>
+
         <div class="res-container2">
             <ul>
                 <p></p>
@@ -181,7 +211,9 @@
                     timely and efficient issue handling.</li>
             </ul>
         </div>
-        <p></p>
+    </div>
+    <p></p>
+    <div class="res-container">
         <UL>
             <span>CLIENT SERVICES</span>
             <span>Feb 2006 - Apr 2019</span>
@@ -190,6 +222,7 @@
             <span>Ebix Health, Inc.</span>
             <span>Remote - Pittsburgh, PA</span>
         </ul>
+
         <p></p>
         <div class="res-container2" style="padding-bottom: 2%;">
             <ul>
@@ -205,6 +238,8 @@
                 <li>⬧ Analyzed client-reported issues, replicating errors to assist in resolution.</li>
             </ul>
         </div>
+    </div>
+    <div class="res-container">
         <hr>
         <h3 style="padding-top: 5%;">EDUCATION</h3>
         <hr>
@@ -337,15 +372,13 @@
     </div>
     <hr>
     <div>
-        <button class="print-container" onclick="window.print()" id="printpdf">Download PDF</button>
-    </div>
-    <li style="padding-left: 15px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
-        reserved.</li>
-    <p></p>
-    <a href="mailto:sgherrington1972@gmail.com"><img src="emailwhite.png" alt="email icon" id="email-icon"></a>
-    <a href="https://www.linkedin.com/in/staci-herrington-a5b89769/" style="padding-left: 45px;"><img
-            src="linkedwhite.png" alt="linkedin icon" id="linkedin-icon"></a>
-    <a href="https://www.facebook.com/profile.php?id=100092502462591" style="padding-left: 45px;"><img src="fbwhite.png"
-            alt="facebook icon" id="facebook-icon"></a>
+        <li style="padding-left: 15px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
+            reserved.</li>
+        <p></p>
+        <a href="mailto:sgherrington1972@gmail.com"><img src="emailwhite.png" alt="email icon" id="email-icon"></a>
+        <a href="https://www.linkedin.com/in/staci-herrington-a5b89769/" style="padding-left: 45px;"><img
+                src="linkedwhite.png" alt="linkedin icon" id="linkedin-icon"></a>
+        <a href="https://www.facebook.com/profile.php?id=100092502462591" style="padding-left: 45px;"><img
+                src="fbwhite.png" alt="facebook icon" id="facebook-icon"></a>
     </div>
 </body>
