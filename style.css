@@ -585,6 +585,25 @@
      padding-top: 1%;
 
  }
+ .res-container ul a {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 100;
+ }
+
+ .res-container ul a:hover {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: #e29e57;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 100;
+ }
 
  .res-container td {
      position: relative;
@@ -611,6 +630,8 @@
      padding-bottom: 1;
      border-bottom: 1px solid #e29e57;
  }
+
+ 
 
 .port-container h3 {
      position: relative;
