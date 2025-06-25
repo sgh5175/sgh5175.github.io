@@ -611,6 +611,30 @@
      padding-bottom: 1;
      border-bottom: 1px solid #e29e57;
  }
+
+.port-container h3 {
+     position: relative;
+     padding-top: 15%;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: center;
+     font-size: 48px;
+     font-weight: 300;
+ }
+
+ .port-container h4 {
+     position: relative;
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: justify;
+     font-size: 24px;
+     font-weight: 300;
+
+ }
+
+
   .port-container table {
      line-height: normal;
      width: 30%;
