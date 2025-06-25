@@ -19,7 +19,6 @@
      border: none;
      height: 3px;
      background-color: #e29e57;
-     max-resolution: 20px 0;
  }
 
  ul {
@@ -69,7 +68,7 @@
      width: 100%;
      height: 150%;
      border-radius: 35%;
-     background-image: url("peacock\ tech\ background.png");
+     background-image: url("images/peacock\ tech\ background.png");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -312,7 +311,7 @@
      position: relative;
      line-height: normal;
      font-family: "Funnel Sans", sans-serif;
-     color: #;
+     color: #e29e57;
      text-align: center;
      font-size: 150px;
      font-weight: 300;
@@ -577,14 +576,15 @@
  .res-container table {
      line-height: normal;
      padding-left: 2%;
-     width: 80% font-family: "Funnel Sans", sans-serif;
+     width: 80%;
+     font-family: "Funnel Sans", sans-serif;
      font-size: 18px;
      font-weight: 100;
      color: #ffffff;
      padding-bottom: 1%;
      padding-top: 1%;
-
  }
+
  .res-container ul a {
      position: relative;
      line-height: normal;
@@ -607,7 +607,8 @@
 
  .res-container td {
      position: relative;
-     width: 16% line-height: normal;
+     width: 16%;
+     line-height: normal;
      text-align: center;
      border-bottom: 1px solid #e29e57;
  }
@@ -631,9 +632,9 @@
      border-bottom: 1px solid #e29e57;
  }
 
- 
 
-.port-container h3 {
+
+ .port-container h3 {
      position: relative;
      padding-top: 15%;
      line-height: normal;
@@ -656,7 +657,7 @@
  }
 
 
-  .port-container table {
+ .port-container table {
      line-height: normal;
      width: 30%;
      font-family: "Funnel Sans", sans-serif;
@@ -672,8 +673,9 @@
 
  .port-container td {
      position: relative;
-     width: 20% line-height: normal;
-     text-align: :left;
+     width: 20%;
+     line-height: normal;
+     text-align: left;
 
  }
 
