@@ -9,6 +9,14 @@
 
  }
 
+ 
+
+ p {
+     font-family: "Funnel Sans", sans-serif;
+     color: #e29e57;
+     font-size: 18px;
+ }
+
  img {
      width: 50px;
      height: 50px;
@@ -53,6 +61,48 @@
 
  li a:hover {
      background-color: #142340;
+ }
+
+ a {
+
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: azure;
+     text-align: right;
+     font-size: 24px;
+     font-weight: 300;
+ }
+
+ a:hover {
+
+     line-height: normal;
+     font-family: "Funnel Sans", sans-serif;
+     color: #e29e57;
+     text-align: right;
+     font-size: 24px;
+     font-weight: 300;
+ }
+
+ form {
+     display: inline-block;
+     font-family: "Funnel Sans", sans-serif;
+     font-size: 18px;
+     color: #e29e57;
+     text-align: left;
+     padding-bottom: 1%;
+ }
+
+ form input {
+     background: #ffffff;
+     width: 400px;
+     border-radius: 5px;
+     height: 30px;
+
+ }
+
+ iframe {
+     display: block;
+     margin: 0 auto;
  }
 
  /*settings for header for top of index page to give peacock background*/
@@ -150,11 +200,13 @@
      color: #ffffff;
      text-decoration-line: underline;
      font-size: 24px;
+     text-align: center;
  }
 
  .intro-container a:hover {
      color: #e29e57;
      font-size: 24px;
+     text-align: center;
  }
 
  /*configuration for .intro-container for mobile & tablet*/
@@ -719,3 +771,25 @@
      font-size: 18px;
      font-weight: 100;
  }
+
+ .form-wrapper {
+     text-align: center;
+ }
+
+ button {
+     background-color: #e29e57;
+     color: azure;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-bottom: 20px;
+
+ }
+
+ button:hover {
+     background-color: #d68d44;
+ }
+
+ 
