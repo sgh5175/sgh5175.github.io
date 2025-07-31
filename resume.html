@@ -31,7 +31,7 @@
 
         .print-button {
             background-color: #e29e57;
-            color: azure;
+            color: #000000;
             border: none;
             padding: 10px 20px;
             font-size: 16px;
@@ -62,7 +62,7 @@
                 display: none !important;
             }
 
-            
+
             .res-container h1 {
                 font-size: 30px;
             }
@@ -73,7 +73,7 @@
 
             .res-container h3 {
                 font-size: 14px;
-                
+
             }
 
             .res-container h4 {
@@ -105,7 +105,7 @@
                 width: 100%;
                 padding: 0%;
             }
-            
+
             /* Optional: remove backgrounds or adjust layout */
             * {
                 background: none !important;
@@ -126,6 +126,7 @@
             .no-print {
                 display: none !important;
             }
+
             /* Page break settings */
             .page-break {
                 page-break-before: always;
@@ -151,27 +152,29 @@
 </head>
 
 <body>
-    <div class="nav-container" style="text-align: left;">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">My Resume</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="blog.html">My Blog</a></li>
-            <li style="float: right"><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div>
-        <p style="padding-top: 5%;"></p>
-        <img src="images/staci crop square headshot.jpg" alt="Profile Picture" id="staciprofile"
-            style="display: block; margin: auto; padding-left: 0; width: 250px; height: 250px; border-radius: 50%; border: 4px solid #333;">
-    </div>
-    <div class="res-container">
+    <nav>
+        <div class="nav-container" style="padding-bottom: 5%; text-align: left;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="blog.html">My Blog</a></li>
+                <li style="float: right"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <p style="padding-top: 5%;"></p>
+            <img src="images/staci crop square headshot.jpg" alt="Profile Picture" id="staciprofile"
+                style="display: block; margin: auto; padding-left: 0; width: 250px; height: 250px; border-radius: 50%; border: 4px solid #333;">
+        </div>
+        <div class="res-container">
 
-        <h1>Staci Herrington</h1>
-        <h2>Software QA Engineer</h2>
-        <button class="print-button" onclick="window.print()" id="printpdf">Download PDF</button>
-
+            <h1>Staci Herrington</h1>
+            <h2>Software QA Engineer</h2>
+            <button class="print-button" onclick="window.print()" id="printpdf">Download PDF</button>
         <h3 style="padding-top: 5%;">PROFESSIONAL SUMMARY</h3>
         <hr>
         <h4>Software QA Engineer with extensive expertise in software testing and quality assurance, leveraging over
@@ -211,253 +214,268 @@
 
             </ul>
         </div>
-    </div>
-    <div class="page-break"></div>
-    <div class="res-container">
-        <p></p>
-        <UL>
-            <span>QA ENGINEER</span>
-            <span>Oct 2021 - Dec 2024</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic;">
-            <span>FranchiCzar, LLC</span>
-            <span>Pearland, TX</span>
-        </ul>
-        <p></p>
-
-        <div class="res-container2">
-            <ul>
-                <p></p>
-                <li>⬧ Engineered and executed manual test cases for .NET applications using Azure DevOps, ensuring
-                    adherence to functional and technical specifications . </li>
-                <li>⬧ Developed comprehensive test automation frameworks using cloud automation tool Testim.io,
-                    enhancing regression testing efficiency and product quality assurance by 85%, leading to faster
-                    release cycles. </li>
-                <li>⬧ Developed and maintained test cases for 5 websites, 1 mobile application, and 2 proprietary
-                    systems which included a franchise relationship platform and a learning management system.</li>
-                <li>⬧ Streamlined software testing processes for cloud applications through Azure DevOps, reducing bug
-                    detection time and improving release cycles for SDLC.</li>
-                <li>⬧ Maintained defect identification, documentation, communication, and resolution following business
-                    requirements.</li>
-                <li>⬧ Created low-fidelity wireframes to support UI/UX planning.</li>
-                <li>⬧ Created user-centric technical documentation for feature releases, improving end-user adoption and
-                    reducing support queries.</li>
-                <li>⬧ Acted as Global Administrator for M365 across 5 franchise brands, including monitoring and
-                    mitigating phishing/malware risks within the organization. Built automated onboarding workflows
-                    assigning access levels based on role type allowing for faster onboarding of new franchisees by 75%.
-                </li>
-                <li>⬧ Coordinated timelines, task assignments, and follow-ups for cross-functional initiatives,
-                    supporting project delivery and ensuring alignment between development, support, and business teams
-                </li>
-                <li style="padding-bottom: 1%;">⬧ Provided high-level technical support for complex system issues,
-                    acting as the escalation point for troubleshooting and resolution across software environments for 5
-                    brands with a 90% daily resolution rate for tickets submitted through our ticketing system.</li>
-            </ul>
         </div>
-    </div>
-    <p></p>
+        <div class="page-break"></div>
+        <div class="res-container">
+            <p></p>
+            <UL>
+                <span>QA ENGINEER</span>
+                <span>Oct 2021 - Dec 2024</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic;">
+                <span>FranchiCzar, LLC</span>
+                <span>Pearland, TX</span>
+            </ul>
+            <p></p>
 
-    <div class="res-container">
-        <UL>
-            <span>QA ENGINEER</span>
-            <span>April 2019 - Sept 2021</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic;">
-            <span>Code Ninjas, LLC</span>
-            <span>Pearland, TX</span>
-        </ul>
+            <div class="res-container2">
+                <ul>
+                    <p></p>
+                    <li>⬧ Engineered and executed manual test cases for .NET applications using Azure DevOps, ensuring
+                        adherence to functional and technical specifications . </li>
+                    <li>⬧ Developed comprehensive test automation frameworks using cloud automation tool Testim.io,
+                        enhancing regression testing efficiency and product quality assurance by 85%, leading to faster
+                        release cycles. </li>
+                    <li>⬧ Developed and maintained test cases for 5 websites, 1 mobile application, and 2 proprietary
+                        systems which included a franchise relationship platform and a learning management system.</li>
+                    <li>⬧ Streamlined software testing processes for cloud applications through Azure DevOps, reducing
+                        bug
+                        detection time and improving release cycles for SDLC.</li>
+                    <li>⬧ Maintained defect identification, documentation, communication, and resolution following
+                        business
+                        requirements.</li>
+                    <li>⬧ Created low-fidelity wireframes to support UI/UX planning.</li>
+                    <li>⬧ Created user-centric technical documentation for feature releases, improving end-user adoption
+                        and
+                        reducing support queries.</li>
+                    <li>⬧ Acted as Global Administrator for M365 across 5 franchise brands, including monitoring and
+                        mitigating phishing/malware risks within the organization. Built automated onboarding workflows
+                        assigning access levels based on role type allowing for faster onboarding of new franchisees by
+                        75%.
+                    </li>
+                    <li>⬧ Coordinated timelines, task assignments, and follow-ups for cross-functional initiatives,
+                        supporting project delivery and ensuring alignment between development, support, and business
+                        teams
+                    </li>
+                    <li style="padding-bottom: 1%;">⬧ Provided high-level technical support for complex system issues,
+                        acting as the escalation point for troubleshooting and resolution across software environments
+                        for 5
+                        brands with a 90% daily resolution rate for tickets submitted through our ticketing system.</li>
+                </ul>
+            </div>
+        </div>
         <p></p>
 
-        <div class="res-container2">
-            <ul>
-                <p></p>
-                <li>⬧ Managed franchisee onboarding and new franchisee training programs.</li>
-                <li>⬧ Engineered and executed manual test cases for .NET applications using Azure DevOps, ensuring
-                    adherence to functional and technical specifications.</li>
-                <li>⬧ Streamlined software testing processes for cloud SAAS, POS, and LMS applications through Azure
-                    DevOps, reducing defect detection time and improving release cycles for SDLC.</li>
-                <li>⬧ Maintained defect identification, documentation, communication, and resolution following business
-                    requirements.</li>
-                <li>⬧ As a Global Admin in M365, was responsible for the onboarding of employees and franchisees,
-                    assigning secure system access as well as responsible for deployment of our Multi-Factor
-                    Authentication across over 1,200 accounts and monitored phishing threats.</li>
-                <li>⬧ Created user-centric technical documentation for feature releases, improving end-user adoption and
-                    reducing support queries.</li>
-                <li style="padding-bottom: 1%;">⬧ Provided high-level technical support for complex system issues,
-                    acting as the escalation point for troubleshooting and resolution across software, hardware, and
-                    network environments, with a daily resolution rate of 95%.</li>
+        <div class="res-container">
+            <UL>
+                <span>QA ENGINEER</span>
+                <span>April 2019 - Sept 2021</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic;">
+                <span>Code Ninjas, LLC</span>
+                <span>Pearland, TX</span>
             </ul>
-        </div>
-    </div>
-    <p></p>
-    <div class="res-container">
-        <UL>
-            <span>CLIENT SERVICES</span>
-            <span>Feb 2006 - Apr 2019</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic;">
-            <span>Ebix Health, Inc.</span>
-            <span>Remote - Pittsburgh, PA</span>
-        </ul>
+            <p></p>
 
+            <div class="res-container2">
+                <ul>
+                    <p></p>
+                    <li>⬧ Managed franchisee onboarding and new franchisee training programs.</li>
+                    <li>⬧ Engineered and executed manual test cases for .NET applications using Azure DevOps, ensuring
+                        adherence to functional and technical specifications.</li>
+                    <li>⬧ Streamlined software testing processes for cloud SAAS, POS, and LMS applications through Azure
+                        DevOps, reducing defect detection time and improving release cycles for SDLC.</li>
+                    <li>⬧ Maintained defect identification, documentation, communication, and resolution following
+                        business
+                        requirements.</li>
+                    <li>⬧ As a Global Admin in M365, was responsible for the onboarding of employees and franchisees,
+                        assigning secure system access as well as responsible for deployment of our Multi-Factor
+                        Authentication across over 1,200 accounts and monitored phishing threats.</li>
+                    <li>⬧ Created user-centric technical documentation for feature releases, improving end-user adoption
+                        and
+                        reducing support queries.</li>
+                    <li style="padding-bottom: 1%;">⬧ Provided high-level technical support for complex system issues,
+                        acting as the escalation point for troubleshooting and resolution across software, hardware, and
+                        network environments, with a daily resolution rate of 95%.</li>
+                </ul>
+            </div>
+        </div>
         <p></p>
-        <div class="res-container2" style="padding-bottom: 2%;">
-            <ul>
-                <p></p>
-                <li>⬧ Acted as a liaison between clients and internal teams, including programming, quality assurance,
-                    development, and product consulting, to ensure timely issue resolution and effective communication.
-                </li>
-                <li>⬧ Monitored and handled support emails from clients, troubleshooting issues, gathering detailed
-                    information, and documenting cases.</li>
-                <li>⬧ Conducted preliminary investigations into LINUX based software issues, resolving minor problems
-                    and coordinating with technical teams for complex fixes.</li>
-                <li>⬧ Low-level testing of software modifications to ensure functionality.</li>
-                <li>⬧ Analyzed client-reported issues, replicating errors to assist in resolution.</li>
+        <div class="res-container">
+            <UL>
+                <span>CLIENT SERVICES</span>
+                <span>Feb 2006 - Apr 2019</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic;">
+                <span>Ebix Health, Inc.</span>
+                <span>Remote - Pittsburgh, PA</span>
             </ul>
+
+            <p></p>
+            <div class="res-container2" style="padding-bottom: 2%;">
+                <ul>
+                    <p></p>
+                    <li>⬧ Acted as a liaison between clients and internal teams, including programming, quality
+                        assurance,
+                        development, and product consulting, to ensure timely issue resolution and effective
+                        communication.
+                    </li>
+                    <li>⬧ Monitored and handled support emails from clients, troubleshooting issues, gathering detailed
+                        information, and documenting cases.</li>
+                    <li>⬧ Conducted preliminary investigations into LINUX based software issues, resolving minor
+                        problems
+                        and coordinating with technical teams for complex fixes.</li>
+                    <li>⬧ Low-level testing of software modifications to ensure functionality.</li>
+                    <li>⬧ Analyzed client-reported issues, replicating errors to assist in resolution.</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="res-container">
-        <hr class="no-print">
-        <h3 style="padding-top: 5%;">EDUCATION</h3>
-        <hr>
-        <UL style="padding-top: 2%;">
-            <span>BACHELOR OF SCIENCE, INFORMATION SCIENCES AND TECHNOLOGY</span>
-            <span>Aug 2018 - Dec 2023</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
-            <span>Pennsylvania State University - World Campus</span>
-            <span>3.39 G.P.A.</span>
-        </ul>
-        <HR>
+        <div class="res-container">
+            <hr class="no-print">
+            <h3 style="padding-top: 5%;">EDUCATION</h3>
+            <hr>
+            <UL style="padding-top: 2%;">
+                <span>BACHELOR OF SCIENCE, INFORMATION SCIENCES AND TECHNOLOGY</span>
+                <span>Aug 2018 - Dec 2023</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
+                <span>Pennsylvania State University - World Campus</span>
+                <span>3.39 G.P.A.</span>
+            </ul>
+            <HR>
 
-        <h3 style="padding-top: 5%;">CERTIFICATIONS</h3>
-        <hr class="no-print">
-        <UL style="padding-top: 2%;">
-            <span><a
-                    href="https://atsqa.org/certified-testers/profile/43b8afcf05b74b71a0fa9762b03478df?srsltid=AfmBOorHB32DdJMoydqpwCIqlVDO3sR1GzPs_IdyFArlyW1PJo00Wd0l">CERTIFIED
-                    TESTER, FOUNDATION LEVEL</a></span>
-            <span>Jan 2021</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic;">
-            ISQTB - International Software Testing Qualifications Board
-        </ul>
-        <UL style="padding-top: 2%;">
-            <span><a
-                    href="https://atsqa.org/certified-testers/profile/43b8afcf05b74b71a0fa9762b03478df?srsltid=AfmBOorHB32DdJMoydqpwCIqlVDO3sR1GzPs_IdyFArlyW1PJo00Wd0l">CERTIFIED
-                    TESTER, FOUNDATION LEVEL AGILE TESTER</a></span>
-            <span>Dec 2021</span>
-        </UL>
-        <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
-            ISQTB - International Software Testing Qualifications Board
-        </ul>
-        <HR>
-        <h3 style="padding-top: 5%;">SKILLS</h3>
-        <hr class="no-print">
+            <h3 style="padding-top: 5%;">CERTIFICATIONS</h3>
+            <hr class="no-print">
+            <UL style="padding-top: 2%;">
+                <span><a
+                        href="https://atsqa.org/certified-testers/profile/43b8afcf05b74b71a0fa9762b03478df?srsltid=AfmBOorHB32DdJMoydqpwCIqlVDO3sR1GzPs_IdyFArlyW1PJo00Wd0l">CERTIFIED
+                        TESTER, FOUNDATION LEVEL</a></span>
+                <span>Jan 2021</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic;">
+                ISQTB - International Software Testing Qualifications Board
+            </ul>
+            <UL style="padding-top: 2%;">
+                <span><a
+                        href="https://atsqa.org/certified-testers/profile/43b8afcf05b74b71a0fa9762b03478df?srsltid=AfmBOorHB32DdJMoydqpwCIqlVDO3sR1GzPs_IdyFArlyW1PJo00Wd0l">CERTIFIED
+                        TESTER, FOUNDATION LEVEL AGILE TESTER</a></span>
+                <span>Dec 2021</span>
+            </UL>
+            <ul style="font-size: 16px; font-style: italic; padding-bottom: 2%;">
+                ISQTB - International Software Testing Qualifications Board
+            </ul>
+            <HR>
+            <h3 style="padding-top: 5%;">SKILLS</h3>
+            <hr class="no-print">
 
-        <table>
-            <tr>
-                <th>Novice Beginner</th>
-                <th>Advanced Beginner</th>
-                <th>Competent</th>
-                <th>Proficient</th>
-                <th>Expert</th>
-            </tr>
-            <tr>
-                <td>Selenium</td>
-                <td>Cypress</td>
-                <td>Test Strategy</td>
-                <td>SDLC</td>
-                <td>Test Cases</td>
-            </tr>
-            <tr>
-                <td>Performance Testing</td>
-                <td>API Testing</td>
-                <td>Test Planning</td>
-                <td>Testing Principles</td>
-                <td>Quality Assurance</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>Visual Studio Code</td>
-                <td>Technical Documentation</td>
-                <td>Agile</td>
-                <td>Microsoft 365</td>
-            </tr>
-            <tr>
-                <td>Jenkins</td>
-                <td>Test Plans</td>
-                <td>PowerShell</td>
-                <td>Testim.io</td>
-                <td>Regression Testing</td>
-            </tr>
-            <tr>
-                <td>GitHub</td>
-                <td>Security Testing</td>
-                <td>User Acceptance Testing</td>
-                <td>Azure DevOps for Test Cases</td>
-                <td>Defect Tracking</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Java</td>
-                <td>Mobile Testing</td>
-                <td></td>
-                <td>Testing Methodologies</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Postman</td>
-                <td>HTML</td>
-                <td></td>
-                <td>Manual Testing</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Rest API</td>
-                <td>Azure DevOps for Sprint Grooming</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>BDD Frameworks</td>
-                <td>Excel</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>CSS</td>
-                <td>Project Management</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>SQL</td>
-                <td>Azure </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Cybersecurity</td>
-                <td>Designing Software</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
+            <table>
+                <tr>
+                    <th>Novice Beginner</th>
+                    <th>Advanced Beginner</th>
+                    <th>Competent</th>
+                    <th>Proficient</th>
+                    <th>Expert</th>
+                </tr>
+                <tr>
+                    <td>Selenium</td>
+                    <td>Cypress</td>
+                    <td>Test Strategy</td>
+                    <td>SDLC</td>
+                    <td>Test Cases</td>
+                </tr>
+                <tr>
+                    <td>Performance Testing</td>
+                    <td>API Testing</td>
+                    <td>Test Planning</td>
+                    <td>Testing Principles</td>
+                    <td>Quality Assurance</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Visual Studio Code</td>
+                    <td>Technical Documentation</td>
+                    <td>Agile</td>
+                    <td>Microsoft 365</td>
+                </tr>
+                <tr>
+                    <td>Jenkins</td>
+                    <td>Test Plans</td>
+                    <td>PowerShell</td>
+                    <td>Testim.io</td>
+                    <td>Regression Testing</td>
+                </tr>
+                <tr>
+                    <td>GitHub</td>
+                    <td>Security Testing</td>
+                    <td>User Acceptance Testing</td>
+                    <td>Azure DevOps for Test Cases</td>
+                    <td>Defect Tracking</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Java</td>
+                    <td>Mobile Testing</td>
+                    <td></td>
+                    <td>Testing Methodologies</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Postman</td>
+                    <td>HTML</td>
+                    <td></td>
+                    <td>Manual Testing</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Rest API</td>
+                    <td>Azure DevOps for Sprint Grooming</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>BDD Frameworks</td>
+                    <td>Excel</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>CSS</td>
+                    <td>Project Management</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SQL</td>
+                    <td>Azure </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Cybersecurity</td>
+                    <td>Designing Software</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </main>
     <hr class="no-print">
-    <div style="text-align: left;" class="no-print">
-        <li style="padding-left: 15px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
-            reserved.</li>
-        <p></p>
-        <a href="mailto:sgherrington1972@gmail.com" target="_blank"><img src="images/emailwhite.png" alt="email icon"
-                id="email-icon"></a>
-        <a href="https://www.linkedin.com/in/staci-herrington-a5b89769/" target="_blank"
-            style="padding-left: 45px;"><img src="images/linkedwhite.png" alt="linkedin icon" id="linkedin-icon"></a>
-        <a href="https://www.facebook.com/profile.php?id=100092502462591" target="_blank"
-            style="padding-left: 45px;"><img src="images/fbwhite.png" alt="facebook icon" id="facebook-icon"></a>
-    </div>
+    <footer>
+        <div>
+            <li style="padding-left: 20px;font-size: 16px;">Copyright © 2025 Staci Herrington. All rights
+                reserved.</li>
+            <p></p>
+            <a href="mailto:sgherrington1972@gmail.com" target="_blank"><img src="images/emailwhite.png"
+                    alt="email icon" id="email-icon"></a>
+            <a href="https://www.linkedin.com/in/staci-herrington-a5b89769/" target="_blank"
+                style="padding-left: 45px;"><img src="images/linkedwhite.png" alt="linkedin icon"
+                    id="linkedin-icon"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092502462591" target="_blank"
+                style="padding-left: 45px;"><img src="images/fbwhite.png" alt="facebook icon" id="facebook-icon"></a>
+        </div>
+    </footer>
 </body>
