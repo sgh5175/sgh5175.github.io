@@ -9,7 +9,9 @@
 
  }
 
- 
+ footer {
+     text-align: left;
+ }
 
  p {
      font-family: "Funnel Sans", sans-serif;
@@ -261,7 +263,7 @@
 
  .nav-container li a:hover {
      background-color: #142340;
-     color:#ffffff;
+     color: #ffffff;
  }
 
  /*settings for resume page including flex box for titles and date lines*/
@@ -794,5 +796,3 @@
      background-color: #d68d44;
      color: #000000;
  }
-
- 
